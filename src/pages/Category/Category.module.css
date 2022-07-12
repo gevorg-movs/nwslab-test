@@ -1,0 +1,21 @@
+.images_container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+    .images_container {
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+@media (max-width: 576px) {
+    .images_container {
+        grid-template-columns: repeat(1, 100%);
+    }
+}

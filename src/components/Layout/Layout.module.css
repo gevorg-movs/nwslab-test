@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    padding: 20px
+}
+
+.sidebar {
+    width: 30%
+}
+
+.content {
+    width: 70%
+}
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%
+    }
+
+    .content {
+        width: 100%
+    }
+}
